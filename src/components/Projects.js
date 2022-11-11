@@ -16,7 +16,7 @@ function Projects() {
               return (
                 <div
                   key={project.id}
-                  className="p-3 border-2 border-gray-600 rounded-lg bg-cyan-200"
+                  className="p-3 transition duration-150 ease-in-out border-2 border-gray-600 rounded-lg cursor-pointer bg-cyan-200 hover:-translate-y-1 hover:scale-110"
                 >
                   <p className="text-lg text-gray-600">{project.name}</p>
                   <p className="pt-2 text-sm text-gray-600">
