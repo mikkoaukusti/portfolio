@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cubano: ["Cubano", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },

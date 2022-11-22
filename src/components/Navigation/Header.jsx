@@ -2,12 +2,12 @@ import ThemeSwitcher from "./ThemeSwitcher";
 
 function Header() {
   return (
-    <header className="w-full p-4 bg-cyan-300">
+    <header className="w-full p-4 bg-[#e7e0c9]">
       <nav className="flex items-center justify-evenly">
         <div className="items-center hidden gap-x-2 sm:flex">
           <a
             href="/"
-            className="p-2 transition duration-150 ease-in-out border-2 border-gray-600 rounded-full bg-cyan-200 hover:-translate-y-1 hover:scale-110"
+            className="p-2 transition duration-150 ease-in-out border-2 border-gray-600 rounded-full bg-[#fffaea] hover:-translate-y-1 hover:scale-110"
           >
             <svg
               className="stroke-2 stroke-gray-600 fill-none"
@@ -23,7 +23,7 @@ function Header() {
           </a>
           <a
             href="/"
-            className="p-2 transition duration-150 ease-in-out border-2 border-gray-600 rounded-full bg-cyan-200 hover:-translate-y-1 hover:scale-110"
+            className="p-2 transition duration-150 ease-in-out border-2 border-gray-600 rounded-full bg-[#fffaea] hover:-translate-y-1 hover:scale-110"
           >
             <svg
               className="stroke-0 fill-gray-600"
@@ -37,12 +37,12 @@ function Header() {
           </a>
         </div>
         <div className="flex items-center">
-          <button className="p-2 text-gray-600 transition duration-150 ease-in-out border-2 border-gray-600 rounded-lg bg-cyan-200 hover:-translate-y-1 hover:scale-110">
+          <button className="p-2 text-gray-600 transition duration-150 ease-in-out border-2 border-gray-600 rounded-lg bg-[#fffaea] hover:-translate-y-1 hover:scale-110">
             jokipuum@gmail.com
           </button>
         </div>
         <ThemeSwitcher />
-        <div className="flex items-center p-2 border-2 border-gray-600 rounded-lg cursor-pointer bg-cyan-200 sm:hidden">
+        <div className="flex items-center p-2 border-2 border-gray-600 rounded-lg cursor-pointer bg-[#fffaea] sm:hidden">
           <svg
             // onClick -> open menu
             className="stroke-0 fill-gray-600"
