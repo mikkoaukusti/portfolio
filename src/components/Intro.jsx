@@ -19,13 +19,13 @@ function Intro() {
         Get to know me better:
       </p>
       <div className="flex flex-col w-full gap-y-3 md:grid md:grid-cols-3 md:gap-x-3">
-        <button className="p-2 text-gray-600 border-2 border-gray-600 rounded-lg bg-[#a8cdae]">
+        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#a8cdae]">
           Education
         </button>
-        <button className="p-2 text-gray-600 border-2 border-gray-600 rounded-lg bg-[#e18568]">
+        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#e18568]">
           Work experience
         </button>
-        <button className="p-2 text-gray-600 border-2 border-gray-600 rounded-lg bg-[#569fbf]">
+        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#569fbf]">
           Projects
         </button>
       </div>
