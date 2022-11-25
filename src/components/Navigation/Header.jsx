@@ -2,9 +2,9 @@ import ThemeSwitcher from "./ThemeSwitcher";
 
 function Header() {
   return (
-    <header className="w-full p-4 bg-[#e7e0c9]">
-      <nav className="flex items-center justify-evenly">
-        <div className="items-center hidden gap-x-2 sm:flex">
+    <header className="flex justify-center p-4">
+      <nav className="flex w-full justify-evenly md:w-3/5">
+        <div className="items-center justify-center hidden gap-x-2 sm:flex">
           <a
             href="/"
             className="p-2 transition duration-150 ease-in-out border-2 border-gray-600 rounded-full bg-[#fffaea] hover:-translate-y-1 hover:scale-110"
@@ -42,6 +42,8 @@ function Header() {
           </button>
         </div>
         <ThemeSwitcher />
+
+        {/* Mobile Menu Button */}
         <div className="flex items-center p-2 border-2 border-gray-600 rounded-lg cursor-pointer bg-[#fffaea] sm:hidden">
           <svg
             // onClick -> open menu
