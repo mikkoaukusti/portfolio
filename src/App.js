@@ -1,3 +1,6 @@
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
+
 import Header from "./components/navigation/Header";
 import Attention from "./components/Attention";
 import Intro from "./components/Intro";
@@ -17,6 +20,9 @@ function App() {
         <WorkExperience />
         <Projects />
         <Footer />
+        <div>
+          <ToastContainer autoClose={3000} pauseOnHover={false} theme="light" />
+        </div>
       </div>
     </div>
   );

@@ -4,10 +4,10 @@ function ProjectItem({ title, description, technology }) {
       <span className="font-medium tracking-tighter text-center text-gray-600 md:text-xl">
         {title}
       </span>
-      <p className="my-2 tracking-tighter text-gray-500 md:text-lg">
+      <p className="my-3 tracking-tighter text-gray-500 md:text-lg">
         {description}
       </p>
-      <div className="flex items-center justify-center p-4 gap-x-1">
+      <div className="flex flex-col text-center py-4 gap-y-1 sm:flex-row sm:items-center sm:justify-center sm:gap-y-0 sm:gap-x-1">
         {technology.map((item, i) => (
           <span
             key={i}

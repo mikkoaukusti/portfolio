@@ -1,6 +1,33 @@
+import { useRef } from "react";
+import { toast } from "react-toastify";
+
 import ThemeSwitcher from "./ThemeSwitcher";
 
 function Header() {
+  const toastId = useRef(null);
+
+  async function copyEmail() {
+    if (!toast.isActive(toastId.current)) {
+      try {
+        await navigator.clipboard.writeText("jokipuum@gmail.com");
+        toastId.current = toast.success("Email copied to clipboard!", {
+          position: toast.POSITION.BOTTOM_RIGHT,
+        });
+        console.log("Email copied to clipboard!");
+        // Resolved - text copied to clipboard successfully
+      } catch (err) {
+        toastId.current = toast.error(
+          "Failed to copy email, maybe try again?",
+          {
+            position: toast.POSITION.BOTTOM_RIGHT,
+          }
+        );
+        console.error("Failed to copy the email: ", err);
+        // Rejected - text failed to copy to the clipboard
+      }
+    }
+  }
+
   return (
     <header className="flex justify-center p-4">
       <nav className="flex w-full justify-evenly md:w-3/5">
@@ -37,7 +64,10 @@ function Header() {
           </a>
         </div>
         <div className="flex items-center">
-          <button className="p-2 text-gray-600 transition duration-150 ease-in-out border-2 border-gray-600 rounded-lg bg-[#fffaea] hover:-translate-y-1 hover:scale-110">
+          <button
+            onClick={() => copyEmail()}
+            className="p-2 text-gray-600 transition duration-150 ease-in-out border-2 border-gray-600 rounded-lg bg-[#fffaea] hover:-translate-y-1 hover:scale-110"
+          >
             jokipuum@gmail.com
           </button>
         </div>

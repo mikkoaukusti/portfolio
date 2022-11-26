@@ -24,13 +24,13 @@ function Intro() {
         </p>
       </div>
       <div className="flex flex-col w-full gap-y-3 md:grid md:grid-cols-3 md:gap-x-3 md:w-3/5">
-        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#a8cdae]">
+        <button className="transition duration-150 ease-in p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#a8cdae] hover:-translate-y-1 hover:scale-105">
           Education
         </button>
-        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#e18568]">
+        <button className="transition duration-150 ease-in p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#e18568] hover:-translate-y-1 hover:scale-105">
           Work experience
         </button>
-        <button className="p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#569fbf]">
+        <button className="transition duration-150 ease-in p-2 text-gray-600 text-sm tracking-tighter border-2 border-gray-600 rounded-lg bg-[#569fbf] hover:-translate-y-1 hover:scale-105">
           Projects
         </button>
       </div>
