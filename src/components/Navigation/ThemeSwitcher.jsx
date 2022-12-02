@@ -1,6 +1,6 @@
 function ThemeSwitcher() {
   return (
-    <div className="items-center hidden p-2 border-2 border-gray-600 rounded-lg gap-x-3 bg-[#fffaea] sm:flex">
+    <div className="flex items-center p-2 border-2 border-gray-600 rounded-lg gap-x-3 bg-[#fffaea]">
       <div className="cursor-pointer">
         <svg
           className="stroke-0 fill-gray-600 hover:fill-orange-400"

@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Systems integrations",
     description:
-      "The cooperation between ATR Soft Oy and TUAS was targeted towards systems integrations in the health care industry. The cooperation consisted of a three day course of IRIS for Health, arranged by InterSystems and two separate stages. Stage 1 consisted a front-end development for an IRIS back-end port reservation application. Stage 2 consisted learning development on IRIS platform by creating an integration. I was the main coder of our group, as I had the most programming experience. During cooperation and development, ATR Soft made a blog post about our cooperation on their website.​",
+      "The cooperation between ATR Soft Oy and TUAS was targeted towards systems integrations in the health care industry. The cooperation consisted of a three day course of IRIS for Health, arranged by InterSystems and two separate stages. Stage 1 consisted a front-end development for an IRIS back-end port reservation application. Stage 2 consisted learning development on IRIS platform by creating an integration. I was the main coder of TUAS group, as I had the most programming knowledge. During development, ATR Soft made a blog post about our cooperation on their website.​",
     technology: [
       "Docker",
       "Git",
@@ -18,7 +18,7 @@ const projects = [
     id: 2,
     title: "Portfolio",
     description:
-      "A single page website that displays information about me such as my education, working experience, and projects.",
+      "A single page website that displays information about me such as my education, working experience, and projects. The source code of this project is found on my GitHub page.",
     technology: ["Git", "React", "TailwindCSS"],
   },
 ];
