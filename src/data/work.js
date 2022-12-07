@@ -11,7 +11,7 @@ const work = [
     year: "summer 2021",
     title: "Kaita Finland Oy",
     description:
-      "My first internship in the ICT industry. The internship was part of my studies. I built an online store (ecommerce) with a company employee using WordPress and WooCommerce.",
+      "My first internship in the ICT industry. The internship was part of my studies. I built an online store (ecommerce) from scratch with a company employee using WordPress and WooCommerce.",
   },
   {
     id: 3,

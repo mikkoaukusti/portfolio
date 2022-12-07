@@ -4,7 +4,7 @@ const education = [
     year: "2020-2024",
     title: "Turku University of Applied Sciences",
     description:
-      "In the first year I learned basics of Python, SQL, and UX/UI designing. In the second year I choosed health technology as my study path. At the moment I am being taught health technology related stuff.",
+      "In the first year of TUAS, I learnt to program with Python, create and manage relational databases (SQL), and create a web application with Django (Python web framework). In the second school year I choosed health technology as my study path. In the same year I learnt basics of health technology and UI/UX designing. At the moment I am being taught more health technology related stuff.",
   },
   {
     id: 2,

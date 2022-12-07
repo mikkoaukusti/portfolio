@@ -3,9 +3,12 @@ import WorkExperienceItem from "./WorkExperienceItem";
 
 function WorkExperience() {
   return (
-    <section className="flex flex-col justify-center px-4 py-10 md:flex-row">
-      <div className="w-full md:w-3/5">
-        <h2 className="mb-5 tracking-tighter text-lg text-center md:text-2xl text-gray-600 bg-[#e18568] p-2 rounded border-b-2 border-gray-600">
+    <section
+      id="work"
+      className="flex flex-col justify-center px-4 py-14 md:py-20 md:flex-row"
+    >
+      <div className="w-full md:w-3/5 xl:w-1/2 2xl:w-1/4">
+        <h2 className="mb-5 tracking-tighter text-lg text-center md:text-2xl text-gray-800 bg-[#f19ba1] p-2 rounded">
           Work experience
         </h2>
         {work.map((item) => (
