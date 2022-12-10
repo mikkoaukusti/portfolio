@@ -23,7 +23,7 @@ function NotFound() {
                 className="shadow-md shadow-[#f1c17a]/50 flex items-center justify-center transition duration-150 ease-in p-2 text-gray-800 text-sm tracking-tighter rounded-full bg-[#f1c17a] hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:shadow-[#f1c17a]/50"
               >
                 Portfolio
-                <span className="bg-[#edb157] px-3 py-1 rounded-full ml-1">
+                <span className="bg-[#edb157] px-3 py-1 rounded-full ml-1.5">
                   &gt;
                 </span>
               </a>

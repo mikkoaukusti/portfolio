@@ -7,6 +7,11 @@
     color-scheme: dark;
   }
 
+  ::selection {
+    background-color: #9b99f5;
+    color: #f3f4f6;
+  }
+
   html {
     @apply scroll-smooth;
   }

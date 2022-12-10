@@ -32,10 +32,10 @@ function Header() {
         <div className="flex items-center justify-center gap-x-2">
           <a
             href="/"
-            className="group p-2 transition duration-150 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110"
+            className="group p-2 transition duration-300 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110"
           >
             <svg
-              className="stroke-2 stroke-[#b4bcd0] fill-none group-hover:stroke-gray-400"
+              className="stroke-2 stroke-gray-500 fill-none group-hover:stroke-gray-400"
               viewBox="0 0 24 24"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -48,10 +48,10 @@ function Header() {
           </a>
           <a
             href="/"
-            className="group p-2 transition duration-150 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110"
+            className="group p-2 transition duration-300 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110"
           >
             <svg
-              className="stroke-0 fill-[#b4bcd0] group-hover:fill-gray-400"
+              className="stroke-0 fill-gray-500 group-hover:fill-gray-400"
               viewBox="0 0 448 512"
               height="1.6rem"
               width="1.6rem"
@@ -64,7 +64,7 @@ function Header() {
         <div className="flex items-center">
           <button
             onClick={() => copyEmail()}
-            className="p-2 text-[#b4bcd0] font-medium transition duration-150 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110 hover:text-gray-400 hover:border-gray-400"
+            className="p-2 text-gray-500 tracking-tighter transition duration-300 ease-in-out rounded-lg bg-[#1f212e] hover:-translate-y-1 hover:scale-110 hover:text-gray-400 hover:border-gray-400"
           >
             <span className="mr-1">&#128203;</span>
             jokipuum@gmail.com

@@ -2,7 +2,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
 import Header from "../components/navigation/Header";
-import Intro from "../components/Intro";
+import Intro from "../components/intro/Intro";
 import Education from "../components/education/Education";
 import WorkExperience from "../components/work/WorkExperience";
 import Projects from "../components/projects/Projects";
@@ -22,7 +22,7 @@ function Home() {
           autoClose={3000}
           pauseOnHover={false}
           pauseOnFocusLoss={false}
-          theme="light"
+          theme="dark"
         />
       </div>
     </div>
