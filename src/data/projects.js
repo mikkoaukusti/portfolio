@@ -18,7 +18,7 @@ const projects = [
     id: 2,
     title: "Portfolio",
     description:
-      "A single page website that displays information about me such as my education, working experience, and projects. The source code of this project is found on my GitHub page.",
+      "A single page website that displays information about me such as my education, working experience, and projects. The source code of this project is found on my GitHub page. In the future, I will move this page's data to the Content Management System (CMS) so that I can manage the data easier.",
     technology: ["Git", "React", "TailwindCSS"],
   },
 ];

@@ -15,10 +15,50 @@ const work = [
   },
   {
     id: 3,
-    year: "2015-2021",
+    year: "7/2021-8/2021",
     title: "Posti Oy",
     description:
-      "During the summer holidays I worked at post office. Sometimes I also worked there during busy seasons like Christmas. In the spring of 2019, I worked for Turun Sanomat before my military service. All work experience from this period is listed in more detail in my resume.",
+      "My summer job in 2021. I delivered mail with a mail delivery car.",
+  },
+  {
+    id: 4,
+    year: "Christmas 2020",
+    title: "Posti Oy",
+    description:
+      "I worked as a seasonal assistant 16.12-23.12. I delivered mail with a mail delivery car.",
+  },
+  {
+    id: 5,
+    year: "7/2020-8/2020",
+    title: "Posti Oy",
+    description:
+      "My summer job in 2020. I delivered mail with a mail delivery car.",
+  },
+  {
+    id: 6,
+    year: "3/2019-6/2019",
+    title: "Lounais-Suomen Tietojakelu Oy",
+    description:
+      "I delivered newspapers with a delivery car at night. I did this job until my military service started.",
+  },
+  {
+    id: 7,
+    year: "Christmas 2018",
+    title: "Posti Oy",
+    description: "I worked as a seasonal assistant 17.12-23.12.",
+  },
+  {
+    id: 8,
+    year: "6/2018",
+    title: "Posti Oy",
+    description:
+      "My summer job in 2018. I shelved soft drinks in K-group stores.",
+  },
+  {
+    id: 9,
+    year: "6/2017-7/2017",
+    title: "Posti Oy",
+    description: "My summer job in 2017. I delivered mail with mail cart.",
   },
 ];
 
